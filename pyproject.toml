@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "diagrams-test"
+version = "0.1.0"
+description = "Test Diagrams"
+authors = ["Tminww <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+diagrams = "^0.24.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
